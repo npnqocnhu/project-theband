@@ -1,0 +1,101 @@
+/*Tablet and mobile*/
+@media(max-width: 1023px){
+    .place-buy{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social {
+        font-size: 34px;
+    }
+
+    #footer .social a {
+        padding: 0 10px;
+    }
+
+    #footer .copyright a{
+        padding: 15px 0;
+        display: inline-block;
+    }
+}
+
+/*Mobile*/
+@media(max-width: 740px){
+    #header .mobile-menu{
+        display: block;/*Hiện trên mobile*/
+    }
+
+    #header .search-btn{
+        display: none;/*ẩn tìm kiếm đi*/
+    }
+
+    #nav > li{
+        display: block;/*chỉnh cho li nằm dọc*/
+    }
+
+    #nav > li a{
+        padding: 1px 24px;
+    }
+
+    #nav{
+        display: block;/*Chỉnh cho menu có chiều ngang dài ra để khi ấn vào kế bên vẫn chạy*/
+    }
+
+    #nav > li:first-child{ /* thẻ li đầu tiên trong class nav*/
+        display: inline-block; /*chỉnh lại kích thươc menu để khi thu gọn lại nó không chiếm hết thanh nav*/
+    }
+
+    #nav .subnav{
+        position: initial;/*đặt về giá trị măc định để menu con hiện lên, bên pc là aspolute*/
+        background: #333;
+    }
+
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: white;
+    }
+
+    #content .member{
+        display: block;
+    }
+
+    #content .member-item{
+        float: none;
+        width: 100%;
+    }
+
+    
+    #content .member-name{
+        margin: 15px 0 0;
+    }
+
+    #content .member-img{
+        margin-top: 5px;
+    }
+
+    .place-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .mt-8{
+        margin-top: 8px;
+    }
+
+    .s-full-width{
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+@media(min-width: 740px) and (max-width: 1023px){
+
+}
+
